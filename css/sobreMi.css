@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.contImg{
+    width: 80%;
+    height: auto;
+    margin: 5px auto;
+
+ 
+}
+.imgPrin{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+.contParrafo{
+    margin:30px auto;
+    width: 80%;
+    text-align: justify;
+}
+.linkContac{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contwhatssa i{
+    color: green;
+    margin-bottom: 20px;
+}
+.contwhatssa i:hover{
+    color: rgb(28, 51, 28);
+}
+.contTelegram i:hover{
+    color: rgb(20, 11, 31);
+}
+.contact{
+    align-items: center;
+    font-size:34px;
+}
+.contTItleLink{
+    margin: 5px auto;
+    font-size: 20px;
+}

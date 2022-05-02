@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
+  transition: all .6s;
+ 
+}
+.contFomr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #444;
+  align-items: center;
+}
+.formula {
+  width: 93%;
+  max-width:1000px;
+}
+.input {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border: none;
+  text-align: center;
+  color: white;
+  outline: none;
+  border-bottom: solid 3px #1c5;
+  background-color: transparent;
+  font-size: 18px;
+}
+textarea {
+  resize: none;
+  width: 100%;
+
+}
+
+.btn_Submit {
+    cursor: pointer;
+    font-size: 18px;
+  background-color: #1c5;
+  text-decoration: none;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.btn_Submit:hover {
+    background-color: rgb(10, 75, 36);
+    color: rgb(90, 87, 87);
+}

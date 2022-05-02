@@ -1,0 +1,275 @@
+/* mapa a utilizar left */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #161515;
+    list-style: none;
+}
+/* #map { 
+    width: 100%;
+    height: 500px;
+    box-shadow: 5px 5px 5px #888;
+    display: none;
+ } */
+
+
+.cont_nav{
+    width: 100%;
+    background-color:#2f2f31;
+    display: none;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.ul_ConPri{
+    width: 100%;
+    margin-top: 20px;
+}
+.ul_ConPri a{
+    color: rgb(243, 242, 241);
+    font-size: 18px;
+    margin-left:16px;
+    text-decoration: none;
+}
+
+.ul_ConPri li:hover > a{
+    color: rgb(146, 141, 137);
+    
+}
+.ul_ConPri li:hover > i{
+    color: rgb(146, 141, 137);
+    
+}
+
+.ul_ConPri i{
+    color: rgb(243, 242, 241);
+    font-size: 18px;
+    margin-left:16px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.btnBar i:hover{
+    color: rgb(146, 141, 137);
+}
+
+.contLogoBtnBar{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #2f2f31;
+    padding: 7px;
+    align-items: center;
+    margin-bottom: -22px;
+    
+}
+.logo{
+    margin-left: 10%;
+}
+.logo p{
+    color: rgb(255, 255, 255);
+}
+.btnBar{
+    
+    margin-right: 20%;
+}
+.btnBar i{
+    cursor: pointer;
+    color: rgb(250, 246, 246);
+    font-size: 20px;
+}
+.subMap{
+    display: none;
+}
+.subMap li{
+    margin: 0px 0px 20px 50px
+    
+}
+.nameUni{
+    margin-top: 5px;
+    font-size: 23px;
+}
+h1{
+    display: flex;
+    margin: auto;
+}
+.contTituloBienvenida{
+    text-align:center ;
+}
+
+.bienvenidaH1{
+    font-size: 25px;
+    margin:30px auto;
+}
+.contbienvenidaH1{
+    display: flex;
+    width: 100%;
+    margin:30px auto 0 ;
+    
+
+}
+
+
+
+
+.titulo_Univer{
+    margin: 20px auto;
+    font-weight: bold;
+}
+.info{
+    width: 90%;
+    text-align: justify;
+    
+}
+
+p{
+    margin: 10px auto;
+}
+.conteinerUniver{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.listUniver1{
+    background-color: #a1a5a8;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.listUniver{
+    background-color: #a1a5a8;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(12, 64, 141);
+}
+.listUniver:hover{
+    background-color: #68869e;
+}
+.listUniver1:hover{
+    background-color: #68869e;
+}
+.contTitulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:30px auto;
+    text-transform:uppercase;
+   
+}
+.contH1CTCs{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-top:2px solid black ;
+    padding: 5px;
+    justify-content: center;
+font-size: 27px;
+}
+.contH1Title{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+    border-top:2px solid black ;
+    padding: 5px;
+    justify-content: center;
+    font-size: 27px;
+}
+
+.titulo_Univer{
+   
+    font-size: 20px;
+    
+}
+img{
+width: 100%;
+object-fit: cover;
+}
+.imgCont{
+    width: 100%;
+    height: auto;
+   
+}
+
+
+@media screen and (min-width:947px) {
+    .cont_nav{
+        display: flex;
+        justify-content: center;  
+        flex-direction: row;
+     }
+    .listUniver{
+        width:46%;
+    }
+    .listUniver1{
+        width:46%;
+    }
+    .titulo_Univer{
+        font-size: 20px;
+    }
+    .contLogoBtnBar{
+        display: none;
+    }
+
+   
+        
+    .ul_ConPri{
+        margin: 0px;
+        
+    }
+    .ul_ConPri i{
+      
+       margin: auto;
+    }
+
+     /* .i_Down{
+        margin-left: 30px;
+        color: red;
+     } */
+     .ul_ConPri li >.i_Down{
+        margin-left: 10px;
+     }
+
+
+    .ul_ConPri li{
+        padding: 7px;
+        margin-left: 30px;
+        max-width: 1200px;
+     }
+     
+     .ul_ConPri i{
+        font-size: 15px;
+    }
+    .ul_ConPri a{
+        font-size: 15px;
+    }
+    /* .Contmapa:hover > .subMap{
+        display: block;
+
+    } */
+    .subMap{
+        position: absolute;
+        background-color: #2f2f31;
+        border-radius: 5px;
+        text-align: justify;
+        z-index: 3;
+    }
+    .subMap li{
+        margin: auto;
+       padding: 20px;
+       
+    }
+   
+}
+
+
+
+
